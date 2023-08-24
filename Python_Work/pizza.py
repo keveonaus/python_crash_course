@@ -1,7 +1,7 @@
 # Store information about a pizza being ordered.
 pizza = {
     'crust': 'thick',
-    'toppings': ['mushrooms', 'extra cheese'],
+    'toppings': ['mushrooms', 'extra cheese', 'onions', 'ranch'],
 }
 
 # Summarize the order.
