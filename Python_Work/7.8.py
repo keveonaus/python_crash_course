@@ -1,5 +1,8 @@
-sandwich_orders = ['blt', 'club', 'fish', 'italian']
+sandwich_orders = ['blt', 'club', 'pastrami', 'fish', 'italian', 'pastrami', 'pastrami']
 finished_sandwichs = []
+
+while 'pastrami' in sandwich_orders:
+    sandwich_orders.remove('pastrami')
 
 while sandwich_orders:
     current_sandwich = sandwich_orders.pop()
