@@ -7,7 +7,7 @@ while polling_active:
 
     responses[name] = response
 
-    repeat = input("Would you like another person answer the poll? (yes/no)")
+    repeat = input("Would you like another person answer the poll? (yes/no) ")
     if repeat == 'no':
         polling_active = False
 
