@@ -15,5 +15,5 @@ while True:
     if country == 'q':
         break
 
-city_country = get_city_country(city, country)
-print(city_country)
+    city_country = get_city_country(city, country)
+    print(city_country)
