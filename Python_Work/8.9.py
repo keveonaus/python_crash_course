@@ -3,7 +3,7 @@ def send_messages(unsent_messages, sent_messages):
     while unsent_messages:
         sending_messages = unsent_messages.pop()
         print(f"{sending_messages}")
-        sent_messages.append(send_messages)
+        sent_messages.append(sending_messages)
 
 def show_sent_messages(sent_messages):
     """Show sending the messages"""
